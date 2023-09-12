@@ -88,7 +88,7 @@ header {
 }
 
 a.link__mixer {
-    color: #F7CD3A;
+    color: #F7931A;
 }
 
 .main__screen {
@@ -146,7 +146,7 @@ a.link__mixer {
 }
 
 .main__screen .title span:nth-of-type(2) {
-    color: #F7CD3A;
+    color: #F7931A;
 }
 
 .container {
@@ -405,7 +405,7 @@ a.link__mixer {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    background: #F7CD3A;
+    background: #F7931A;
     z-index: -1
 }
 
@@ -619,7 +619,7 @@ a.link__mixer {
 }
 
 .how__it__works .inner .block>span>span:nth-child(1) {
-    color: #F7CD3A;
+    color: #F7931A;
 }
 
 .how__it__works .inner .block .title {
@@ -711,7 +711,7 @@ a.link__mixer {
 }
 
 .did__you__buy .graphics .graphics__inner .arrow {
-    color: #F7CD3A;
+    color: #F7931A;
     position: relative;
 }
 
@@ -776,7 +776,7 @@ footer .logo__wrap>span {
 }
 
 footer .logo__wrap>span>span {
-    color: #F7CD3A;
+    color: #F7931A;
 }
 
 footer .inner .links {
@@ -811,11 +811,11 @@ footer .inner p {
 }
 
 .footer__buttons a:nth-child(1) {
-    border-color: #F7CD3A;
+    border-color: #F7931A;
 }
 
 .footer__buttons a:nth-child(2) {
-    border-color: #F7CD3A;
+    border-color: #F7931A;
 }
 
 .footer__buttons a:nth-child(3) {
@@ -842,7 +842,7 @@ footer .inner p {
 /* themecolor */
 
 .gta__logo>span {
-    color: #F7CD3A;
+    color: #F7931A;
 }
 
 
@@ -871,8 +871,8 @@ footer .inner p {
 /* LAMP */
 
 .lamp>.glow {
-    background: #F7CD3A !important;
-    box-shadow: 0 0 185px 46px #F7CD3A;
+    background: #F7931A !important;
+    box-shadow: 0 0 185px 46px #F7931A;
 }
 
 /* LAMP */

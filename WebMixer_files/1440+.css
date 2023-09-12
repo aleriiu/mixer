@@ -165,7 +165,7 @@ header {
 .lamp>.glow {
     width: 48px;
     height: 108px;
-    box-shadow: 0 0 185px 46px #F7CD3A;
+    box-shadow: 0 0 185px 46px #F7931A;
     filter: blur(30px);
     bottom: 350px;
     left: 200px
