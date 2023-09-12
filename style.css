@@ -84,7 +84,7 @@ header {
 }
 
 .link__telegram {
-    color: #5b98df !important
+    color: #2096d4 !important
 }
 
 a.link__mixer {
@@ -95,7 +95,7 @@ a.link__mixer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    height: 100vh
+    height: 63vh
 }
 
 .main__screen.faq__screen {
@@ -678,7 +678,7 @@ a.link__mixer {
 }
 
 .block__subtitle {
-    color: #5847c0
+    color: #F7931A;
 }
 
 .did__you__buy .text {
