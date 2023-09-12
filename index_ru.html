@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Mix</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./WebMixer_files/css2" rel="stylesheet">
+    <link rel="icon" href="https://webmixer.io/assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./WebMixer_files/reset.css">
+    <link rel="stylesheet" href="./WebMixer_files/fonts.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./WebMixer_files/fireflies.css">
+    <link rel="stylesheet" href="./WebMixer_files/1440+.css">
+    <link rel="stylesheet" href="./WebMixer_files/1100.css">
+    <link rel="stylesheet" href="./WebMixer_files/760.css">
+    <link rel="stylesheet" href="./WebMixer_files/650.css">
+    <link rel="stylesheet" href="./WebMixer_files/mobile-desktop.css">
+    <link rel="stylesheet" href="./WebMixer_files/violet.css">
+</head>
+
+<body>
+    <div class="mobile__menu">
+        <div class="footer__buttons">
+            <a href="http://t.me/webm1xer_bot">Telegram Бот</a>
+            <a href="http://webmix2nwd6qpq6tjkqshfivt3qqjoutl535xk2z32tgapqfn52z62yd.onion/">Tor-Зеркало</a>
+        </div>
+    </div>
+    <div class="main__screen">
+        <div class="upper">
+            <div class="background"></div>
+            <header>
+                <div class="container">
+                    <div class="header__inner">
+                        <div class="header__part">
+                            <a href="#" class="logo"><img src="./images/logo.svg" alt=""></a>
+                        </div>
+                        <div class="header__part">
+                            <a href="#">
+                                <h1 class="gta__logo"><span>EASY</span>MIX</h1>
+                            </a>
+                        </div>
+                        <div class="header__part">
+                            <a href="./index_en.html" class="language__select">EN</a>
+                            <a href="http://t.me/webm1xer_bot" class="link__telegram">Telegram Бот</a>
+                            <a href="https://webmixer.io/ru/" class="link__mixer">Биткоин Миксер</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="header__mobile">
+                <a href="./index_en.html" class="language__select">EN</a>
+                <a href="https://webmixer.io/ru/" class="mobile__link">
+                    <h1 class="gta__logo"><span>EASY</span> MIX</h1>
+                </a>
+                <button
+                    onclick="if (!window.__cfRLUnblockHandlers) return false; this.classList.toggle(&#39;menu__opened&#39;); document.querySelector(&#39;body&#39;).setAttribute(&#39;data-menu-opened&#39;, this.classList.contains(&#39;menu__opened&#39;)); document.querySelector(&#39;.mobile__menu&#39;).setAttribute(&#39;data-opened&#39;, this.classList.contains(&#39;menu__opened&#39;));"
+                    class="burger"></button>
+            </div>
+            <div class="title">
+                <img src="./images/bitcoin.svg" alt="">
+                <span>itcoin</span>
+                <span>Mixer</span>
+            </div>
+        </div>
+        <div class="mix__bar">
+            <div class="glow"></div>
+            <div class="page__selectors">
+                <button data-layer="2" class="selector">Миксер</button>
+                <button data-layer="1" class="selector">Точный платеж</button>
+                <button data-layer="0" class="selector">Полная анонимность</button>
+            </div>
+            <div class="mix__bar__pages">
+                <div data-selected="1" class="mix__bar__page">
+                    <div class="mix__specs">
+                        <div>
+                            <span>Безопасность</span>
+                            <div class="stars">
+                                <div class="star filled"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <span>Комиссия</span>
+                            <span>1-1,5% + 0,00035 BTC</span>
+                        </div>
+                        <div>
+                            <span>Время очистки</span>
+                            <span>0 - 2 hours</span>
+                        </div>
+                        <div>
+                            <span>Сумма</span>
+                            <span>0,001 - 1 BTC</span>
+                        </div>
+                        <div>
+                            <span>Откуда BTC</span>
+                            <span>клиенты</span>
+                        </div>
+                    </div>
+                    <form class="inputs__wrap" action="https://webmixer.io/ru/result-mixer/" method="post">
+                        <div class="mix__tooltip">
+                            Введите адрес для возврата Bitcoin:
+                        </div>
+                        <div class="input__wrap">
+                            <input required="" type="text" name="forward_first_address"
+                                placeholder="Адрес для смешанных bitcoin">
+                            <button disabled="" type="submit">Mix</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="mix__bar__page">
+                    <div class="mix__specs">
+                        <div>
+                            <span>Безопасность</span>
+                            <div class="stars">
+                                <div class="star filled"></div>
+                                <div class="star filled"></div>
+                                <div class="star filled"></div>
+                                <div class="star filled"></div>
+                                <div class="star filled"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <span>Комиссия</span>
+                            <span>4-5% + 0,0007 BTC</span>
+                        </div>
+                        <div>
+                            <span>Время очистки</span>
+                            <span>0 - 6 hours</span>
+                        </div>
+                        <div>
+                            <span>Сумма</span>
+                            <span>0,01 - 50 BTC</span>
+                        </div>
+                        <div>
+                            <span>Откуда BTC</span>
+                            <span>биржи</span>
+                        </div>
+                    </div>
+                    <form class="inputs__wrap" action="https://webmixer.io/ru/result-fix/" method="post">
+                        <div class="mix__tooltip">
+                            Отправим точную сумму на первый адрес,<br>а все остальное на кошелек для сдачи
+                        </div>
+                        <div class="input__wrap">
+                            <input required="" class="no__button first_amount_addr" type="text"
+                                placeholder="Адрес для смешанных bitcoin" name="forward_first_address">
+                            <input required="" id="mixSpecsAmountSelector" class="amount__selector no__button"
+                                type="number" step="0.00001" min="0.001" max="50" placeholder="0.01"
+                                name="forward_amount">
+                        </div>
+                        <div class="input__wrap">
+                            <input required="" type="text" class="no__button" placeholder="Ваш адрес для сдачи"
+                                name="forward_second_address">
+                        </div>
+                        <button class="btn__separate" disabled="" type="submit">Mix</button>
+                    </form>
+                </div>
+                <div class="mix__bar__page">
+                    <div class="mix__specs">
+                        <div>
+                            <span>Безопасность</span>
+                            <div class="stars">
+                                <div class="star filled"></div>
+                                <div class="star filled"></div>
+                                <div class="star filled"></div>
+                                <div class="star filled"></div>
+                                <div class="star filled"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <span>Комиссия</span>
+                            <span>4-5% + 0,0007 BTC</span>
+                        </div>
+                        <div>
+                            <span>Время очистки</span>
+                            <span>0 - 6 hours</span>
+                        </div>
+                        <div>
+                            <span>Сумма</span>
+                            <span>0,003 - 50 BTC</span>
+                        </div>
+                        <div>
+                            <span>Откуда BTC</span>
+                            <span>биржи</span>
+                        </div>
+                    </div>
+                    <form class="inputs__wrap" action="https://webmixer.io/ru/result-fa/" method="post">
+                        <div class="mix__tooltip">
+                            Введите адреса для возврата Bitcoin (минимум один):
+                        </div>
+                        <div class="input__wrap">
+                            <input required="" class="no__button" type="text" placeholder="Адрес для смешанных bitcoin"
+                                name="forward_first_address">
+                        </div>
+                        <div class="input__wrap">
+                            <input type="text" class="no__button" placeholder="Адрес для смешанных bitcoin 2"
+                                name="forward_second_address">
+                        </div>
+                        <button disabled="" class="btn__separate" type="submit">Mix</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="lamp1" class="lamp">
+        <img src="./images/lamp.png" alt="">
+        <div class="glow"></div>
+    </div>
+    <div id="howItWorksCont" class="container">
+        <div class="how__it__works rounded__block">
+            <div class="block__title">Как это работает?</div>
+            <div class="inner">
+                <div class="rounded__block block">
+                    <div class="rounded__block glass__background"></div>
+                    <span class="title">Миксер</span>
+                    <span><span>1.</span>Ваши монеты поступают в наш биткоин миксер, обезличиваются и затем уходят на
+                        биржу.</span>
+                    <img src="./index_ru_files/arrow-triangle.svg" alt="">
+                    <span><span>2.</span>Вам возвращаются монеты других пользователей режима «Полная анонимность», после
+                        обезличивания.</span>
+                </div>
+                <div class="rounded__block block">
+                    <div class="rounded__block glass__background"></div>
+                    <span class="title">Точный платеж</span>
+                    <span><span>1.</span>Теперь стало удобно платить нужную сумму через миксер!Введите сумму, адрес
+                        получателя и кошелек для сдачи.
+                        Ваши входящие монеты обезличатся так-же, как в режиме "Полная анонимность".</span>
+                    <img src="./index_ru_files/arrow-triangle.svg" alt="">
+                    <span><span>2.</span>Вам вернутся монеты с иностранных криптобирж. На первый адрес придет точная
+                        сумма, указанная вами, а на адрес для сдачи, остаток за вычетом комиссии миксера.</span>
+                </div>
+                <div class="rounded__block block">
+                    <div class="rounded__block glass__background"></div>
+                    <span class="title">Полная Анонимность</span>
+                    <span><span>1.</span>Ваши обезличенные монеты разбиваются на части и уходят клиентам режима
+                        "миксер", а остаток на биржи, частным трейдерам.</span>
+                    <img src="./index_ru_files/arrow-triangle.svg" alt="">
+                    <span><span>2.</span>Вы получаете чистые монеты с других бирж, без связи с вами, и с защитой от всех
+                        видов деанонимизации.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="guaranteeCont" class="container">
+        <div class="rounded__block guarantees">
+            <div class="rounded__block glass__background"></div>
+            <div class="description">
+                <h1 class="block__title">Наши гарантии<img src="./images/verified.svg" alt=""></h1>
+                <p>Лучший алгоритм защиты Биткоин Миксер 2.0 на режиме «Полная анонимность»</p>
+            </div>
+            <div class="guarantees__inner">
+                <div class="guarantee">
+                    <img src="./images/lock.svg" alt="">
+                    <span>Нет регистрации и логов. Рабочие данные зашифрованы.</span>
+                </div>
+                <div class="guarantee">
+                    <img src="./images/trash-can.svg" alt="">
+                    <span>Автоудаление данных сразу, заявок - через 168 часов.</span>
+                </div>
+                <div class="guarantee">
+                    <img src="./images/star-contour.svg" alt="">
+                    <span>100% гарантия возврата средств. Репутация с 2020 г.</span>
+                </div>
+                <div class="guarantee">
+                    <img src="./images/mail.svg" alt="">
+                    <span>Cистема гарантийных писем.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="lamp2" class="lamp">
+        <img src="./images/lamp.png" alt="">
+        <div class="glow"></div>
+    </div>
+    <div class="darken__wrap">
+        <div class="darken__wrap__inner"></div>
+        <div id="didYouBuyContainer" class="container">
+            <div class="did__you__buy">
+                <div class="inner">
+                    <div class="rounded__block block">
+                        <div class="rounded__block glass__background"></div>
+                        <h1 class="block__title">Купил за bitcoin?</h1>
+                        <span class="block__subtitle">ты попал...</span>
+                        <div class="text">
+                            <p>Практически все криптовалютные площадки и платежные системы постоянно вас отслеживают в
+                                рамках процедуры KYC (Знай Своего Клиента). Это касается Bitpay, Binance, Localbitcoins
+                                и большинства других. В основном используются решения от Bitfury, Chainalysis и
+                                Elliptic, которые автоматически анализируют цепочки транзакций, происхождение средств, и
+                                ассоциируют ваши адреса, с данными из реального мира.</p>
+                            <p>Купили гаджет с доставкой домой? Пополнили свой аккаунт на бирже через цепочку кошельков?
+                                Сделали вывод на Localbitcoins?<br><br>Вот вас и сопоставили с реальным миром. Эти
+                                системы научились распознавать транзакции обычных биткоин миксеров, coin-join кошельков
+                                и сразу помечать их как подозрительные!</p>
+                        </div>
+                        <button
+                            onclick="if (!window.__cfRLUnblockHandlers) return false; this.classList.toggle(&#39;expanded&#39;); document.querySelector(&#39;.did__you__buy .text&#39;).setAttribute(&#39;aria-expanded&#39;, this.classList.contains(&#39;expanded&#39;));"
+                            class="read__more"></button>
+                        <div class="graphics">
+                            <span class="title">Деанонимизация на примере Bitfury Crystal</span>
+                            <div class="graphics__inner">
+                                <img src="./images/illustration1.svg" alt="">
+                                <span class="arrow">extend</span>
+                                <img src="./images/illustration2.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="summary">
+                            <p>
+                                Для сохранения вашей приватности мы рекомендуем вам использовать режим «Полная
+                                анонимность», он устойчив к деанонимизации, и формирует положительную историю
+                                транзакций.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footerContainer" class="container">
+            <footer>
+                <div class="inner">
+                    <div class="logo__wrap">
+                        <img src="./images/logo.svg" alt="">
+                        <span><span>Web</span>.mixer</span>
+                    </div>
+                    <div class="links">
+                        <a href="https://webmixer.io/ru/faq/">FAQ</a>
+                        <a href="https://webmixer.io/ru/contacts/">Контакты</a>
+                        <a href="https://webmixer.io/ru/#howItWorksCont">Как это работает</a>
+                        <a href="https://webmixer.io/ru/#guaranteeCont">Наши гарантии</a>
+                    </div>
+                </div>
+                <div class="footer__buttons">
+                    <a href="http://t.me/webm1xer_bot">Telegram Бот</a>
+                    <a href="http://webmix2nwd6qpq6tjkqshfivt3qqjoutl535xk2z32tgapqfn52z62yd.onion/">Tor-Зеркало</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="./WebMixer_files/mixbar.js" type="text/javascript"></script>
+    <script src="./WebMixer_files/address-validation.js" type="text/javascript"></script>
+    <script>(function () { var js = "window['__CF$cv$params']={r:'8057c1f19c664242',t:'MTY5NDUxNzU4OC44ODEwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);"; var _0xh = document.createElement('iframe'); _0xh.height = 1; _0xh.width = 1; _0xh.style.position = 'absolute'; _0xh.style.top = 0; _0xh.style.left = 0; _0xh.style.border = 'none'; _0xh.style.visibility = 'hidden'; document.body.appendChild(_0xh); function handler() { var _0xi = _0xh.contentDocument || _0xh.contentWindow.document; if (_0xi) { var _0xj = _0xi.createElement('script'); _0xj.innerHTML = js; _0xi.getElementsByTagName('head')[0].appendChild(_0xj); } } if (document.readyState !== 'loading') { handler(); } else if (window.addEventListener) { document.addEventListener('DOMContentLoaded', handler); } else { var prev = document.onreadystatechange || function () { }; document.onreadystatechange = function (e) { prev(e); if (document.readyState !== 'loading') { document.onreadystatechange = prev; handler(); } }; } })();</script>
+    <iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"
+        src="./WebMixer_files/saved_resource.html"></iframe>
+</body>
+
+</html>
