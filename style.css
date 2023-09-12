@@ -1,5 +1,8 @@
 * {
-    font-family: GT Eesti Text
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html {
@@ -53,8 +56,11 @@ header {
 .header__inner a {
     font-style: normal;
     font-weight: 400;
-    color: #989898;
     text-decoration: none
+}
+
+.language__select {
+    color: #989898;
 }
 
 .logo {
@@ -66,7 +72,7 @@ header {
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    flex: 1
+    /* flex: 1 */
 }
 
 .header__part:nth-of-type(1) {
@@ -81,8 +87,8 @@ header {
     color: #5b98df !important
 }
 
-.link__mixer {
-    color: #ca8636 !important
+a.link__mixer {
+    color: #F7CD3A;
 }
 
 .main__screen {
@@ -112,8 +118,8 @@ header {
     z-index: -1;
     filter: blur(15px);
     -webkit-filter: blur(15px);
-    opacity: .4;
-    background-image: url(./images/upper-background.svg)
+    /*  opacity: .4; */
+    background-image: url(./images/upper-background-yellow.svg)
 }
 
 .main__screen .title {
@@ -122,13 +128,13 @@ header {
     width: 100%;
     align-items: center;
     justify-content: center;
-    margin: auto
+    margin: auto;
+    padding-bottom: 20px;
 }
 
 .main__screen .title span {
-    font-family: gt eesti display;
     font-style: normal;
-    font-weight: 400
+    font-weight: 600;
 }
 
 .main__screen .title img {
@@ -140,14 +146,15 @@ header {
 }
 
 .main__screen .title span:nth-of-type(2) {
-    color: #715bf8
+    color: #F7CD3A;
 }
 
 .container {
     max-width: 992px;
     width: 100%;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    padding: 20px 0;
 }
 
 .main__screen .result__area {
@@ -227,7 +234,6 @@ header {
     color: #fff;
     border: none;
     outline: none;
-    font-family: gt eesti display;
     cursor: pointer
 }
 
@@ -431,7 +437,6 @@ header {
 .guarantees .description h1 {}
 
 .block__title {
-    font-family: gt eesti display;
     font-style: normal;
     font-weight: 400;
     color: #fff;
@@ -614,7 +619,7 @@ header {
 }
 
 .how__it__works .inner .block>span>span:nth-child(1) {
-    color: #715bf8
+    color: #F7CD3A;
 }
 
 .how__it__works .inner .block .title {
@@ -706,8 +711,8 @@ header {
 }
 
 .did__you__buy .graphics .graphics__inner .arrow {
-    color: #715bf8;
-    position: relative
+    color: #F7CD3A;
+    position: relative;
 }
 
 .did__you__buy .graphics .graphics__inner .arrow::after {
@@ -736,8 +741,8 @@ footer {
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    padding-top: 170px;
-    padding-bottom: 300px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 footer .inner {
@@ -749,6 +754,10 @@ footer .inner {
 .footer__buttons {
     display: flex;
     flex-direction: column;
+}
+
+.logo__wrap {
+    font-weight: 700;
 }
 
 footer .logo__wrap {
@@ -763,13 +772,11 @@ footer .logo__wrap>img {
 footer .logo__wrap>span {
     display: flex;
     align-items: center;
-    font-family: pricedown bl !important;
     color: #c7c7c7
 }
 
 footer .logo__wrap>span>span {
-    font-family: pricedown bl !important;
-    color: #715bf8
+    color: #F7CD3A;
 }
 
 footer .inner .links {
@@ -804,11 +811,11 @@ footer .inner p {
 }
 
 .footer__buttons a:nth-child(1) {
-    border-color: #715bf8
+    border-color: #F7CD3A;
 }
 
 .footer__buttons a:nth-child(2) {
-    border-color: #715bf8
+    border-color: #F7CD3A;
 }
 
 .footer__buttons a:nth-child(3) {
@@ -828,15 +835,17 @@ footer .inner p {
 }
 
 .gta__logo {
-    font-family: pricedown bl !important;
     color: #fff;
-    margin-top: -2.5%
+    font-weight: 900;
 }
 
+/* themecolor */
+
 .gta__logo>span {
-    font-family: pricedown bl !important;
-    color: #715bf8
+    color: #F7CD3A;
 }
+
+
 
 .faq__container .faq__item {
     margin: 20px auto;
@@ -858,3 +867,12 @@ footer .inner p {
     margin: 20px 10px;
     font-size: 1.3em
 }
+
+/* LAMP */
+
+.lamp>.glow {
+    background: #F7CD3A !important;
+    box-shadow: 0 0 185px 46px #F7CD3A;
+}
+
+/* LAMP */
