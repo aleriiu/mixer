@@ -1,1 +1,17 @@
-@media(max-aspect-ratio:1/1) and (min-width:800px){.main__screen{height:auto}.main__screen .upper{height:unset}.main__screen .title{margin:42px 0}#guaranteeCont{margin-top:100px}}
+@media(max-aspect-ratio:1/1) and (min-width:800px) {
+    .main__screen {
+        height: auto
+    }
+
+    .main__screen .upper {
+        height: unset
+    }
+
+    .main__screen .title {
+        margin: 42px 0
+    }
+
+    #guaranteeCont {
+        margin-top: 100px
+    }
+}
