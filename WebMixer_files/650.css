@@ -43,6 +43,10 @@
         font-size: 48px
     }
 
+    .mix__bar {
+        height: 60vh;
+    }
+
     .mix__bar .page__selectors .selector {
         font-size: 13px;
         height: 37px
