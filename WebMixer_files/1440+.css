@@ -27,9 +27,9 @@ header {
     height: 40vh
 }
 
-.main__screen .upper__faq {
+/* .main__screen .upper__faq {
     height: 40vh
-}
+} */
 
 .result__area {
     display: flex;

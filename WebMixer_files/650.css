@@ -4,7 +4,7 @@
     }
 
     .main__screen {
-        height: 100vh
+        height: 60vh
     }
 
     .header__mobile {
@@ -30,9 +30,9 @@
         z-index: 9999999;
     }
 
-    .main__screen .upper__faq {
+    /* .main__screen .upper__faq {
         height: 19vh
-    }
+    } */
 
     .header__mobile .language__select {
         font-size: 18px;
@@ -72,7 +72,7 @@
     }
 
     .main__screen .upper {
-        height: 50vh
+        height: 30vh
     }
 
     .main__screen .upper__result {
@@ -140,7 +140,7 @@
         border-radius: 0;
         border-left: none;
         border-right: none;
-        padding: 60px 30px;
+        padding: 35px 30px;
         max-height: unset;
         flex-direction: column;
         gap: 15px
@@ -242,7 +242,7 @@
     }
 
     .did__you__buy .graphics .graphics__inner .arrow::after {
-        background-image: url(../images/graphics-arrow.svg);
+        background-image: url('../images/graphics-arrow-rotate.svg');
         height: 100%;
         width: 5px;
         left: unset;
@@ -335,5 +335,9 @@
     .language__select,
     .mobile__link {
         text-decoration: none
+    }
+
+    .how__it__works .inner .block .title {
+        top: -7%;
     }
 }

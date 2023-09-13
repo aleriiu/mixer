@@ -443,7 +443,8 @@ a.link__mixer {
     display: flex;
     flex-direction: row;
     gap: 3px;
-    align-items: center
+    align-items: center;
+    padding-top: 1rem;
 }
 
 .block__title img {
