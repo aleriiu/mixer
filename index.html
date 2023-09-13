@@ -60,7 +60,7 @@
                     <h1 class="gta__logo"><span>EASY</span> MIX</h1>
                 </a>
                 <button
-                    onclick="if (!window.__cfRLUnblockHandlers) return false; this.classList.toggle('menu__opened'); document.querySelector('body').setAttribute('data-menu-opened', this.classList.contains('menu__opened')); document.querySelector('.mobile__menu').setAttribute('data-opened', this.classList.contains('menu__opened'));"
+                    onclick="this.classList.toggle('menu__opened'); document.querySelector('body').setAttribute('data-menu-opened', this.classList.contains('menu__opened')); document.querySelector('.mobile__menu').setAttribute('data-opened', this.classList.contains('menu__opened'));"
                     class="burger" data-cf-modified-fd71b7653e0b9aa832e58f3e-></button>
             </div>
             <div class="title">
@@ -302,7 +302,7 @@
                                 и сразу помечать их как подозрительные!</p>
                         </div>
                         <button
-                            onclick="if (!window.__cfRLUnblockHandlers) return false; this.classList.toggle('expanded'); document.querySelector('.did__you__buy .text').setAttribute('aria-expanded', this.classList.contains('expanded'));"
+                            onclick="this.classList.toggle('expanded'); document.querySelector('.did__you__buy .text').setAttribute('aria-expanded', this.classList.contains('expanded'));"
                             class="read__more" data-cf-modified-fd71b7653e0b9aa832e58f3e-></button>
                         <div class="graphics">
                             <span class="title">Деанонимизация на примере Bitfury Crystal</span>
