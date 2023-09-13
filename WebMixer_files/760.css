@@ -38,7 +38,8 @@
     }
 
     .mix__bar {
-        margin-top: 40px
+        margin-top: 40px;
+        height: 35vh;;
     }
 
     .mix__bar .page__selectors {
